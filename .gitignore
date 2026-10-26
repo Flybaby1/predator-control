@@ -1,0 +1,22 @@
+# ---- 构建产物 ----
+bin/
+obj/
+.dotnet/
+.build/
+.staging/
+publish/
+
+# ---- 发布二进制：走 GitHub Release，不进版本库 ----
+发布/*.exe
+*.zip
+
+# ---- 本地工具与记忆 ----
+.workbuddy/
+*.user
+*.suo
+.vs/
+
+# ---- 系统 ----
+Thumbs.db
+desktop.ini
+.DS_Store
