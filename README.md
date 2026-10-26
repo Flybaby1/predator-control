@@ -13,7 +13,7 @@
 
 ## 下载
 
-到 [**Releases**](../../releases/latest) 页面下载 `PredatorControl.exe`，双击即可运行，免安装、免运行库。
+到 [**Releases**](https://github.com/Flybaby1/predator-control/releases/latest) 页面下载 `PredatorControl.exe`，双击即可运行，免安装、免运行库。
 
 > 首次启动会请求管理员权限——这是读取 Acer 硬件接口的前提，不授权只能看界面、读不到数据。
 
