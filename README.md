@@ -1,11 +1,21 @@
 # 掠夺者控制台 · Predator Control
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Platform](https://img.shields.io/badge/platform-Windows%2010%20%7C%2011-0078D6.svg)](#运行要求)
+[![.NET](https://img.shields.io/badge/.NET-8.0-512BD4.svg)](https://dotnet.microsoft.com/)
+
 一个轻量的 Windows 硬件监控 + 风扇控制工具，专为 **Acer Predator（宏碁掠夺者）** 游戏本编写，
 用于替代识别不稳、启动缓慢的 PredatorSense。
 
 > 在 Acer Predator PHN16-72（Helios Neo 16 / i9-14900HX / RTX 4060 Laptop / BIOS V1.17 / Win11）上开发与实测。
 
 ![界面预览](发布/界面预览.png)
+
+## 下载
+
+到 [**Releases**](../../releases/latest) 页面下载 `PredatorControl.exe`，双击即可运行，免安装、免运行库。
+
+> 首次启动会请求管理员权限——这是读取 Acer 硬件接口的前提，不授权只能看界面、读不到数据。
 
 ## 功能
 
@@ -91,3 +101,8 @@ dotnet publish -c Release -r win-x64 --self-contained true \
 ## 免责声明
 
 风扇控制涉及硬件底层接口，使用风险自负。程序退出时会自动恢复「自动」模式。
+
+## License
+
+[MIT](LICENSE) © 2026 Flybaby1
+
